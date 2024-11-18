@@ -1,0 +1,376 @@
+cllinica.css 
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #0A1445;
+    color: white;
+  }
+  
+  .navbar {
+    height: 95px;
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #0A1445;
+  }
+  .banner {
+    width: 193px;
+    height: 205px;
+    flex-shrink: 0; 
+  }
+
+  .navbar .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #00d7ff;
+  }
+  
+  .navbar .logo span {
+    color: white;
+  }
+  
+  .navbar ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+  }
+  
+  .navbar a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .app-button {
+    padding: 10px 20px;
+    background-color: #ffb800;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .hero-section {
+    text-align: center;
+    padding: 50px 20px;
+  }
+  
+  .hero-section h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .glasses {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px 0;
+    font-size: 1.5rem;
+  }
+  
+  .glasses .highlight {
+    font-size: 2rem;
+    color: #00d7ff;
+  }
+  
+  .cta-button {
+    padding: 15px 30px;
+    background-color: #0066ff;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .about {
+    padding: 2rem;
+    text-align: center;
+    color: white;
+    background-color: #181818;
+  }
+
+  .stats {
+    display: flex;
+    justify-content: space-around;
+    background-color: #0a0c1a;
+    padding: 20px 0;
+  }
+  
+  .stats div {
+    text-align: center;
+  }
+  
+  .stats h2 {
+    font-size: 2rem;
+    color: #00d7ff;
+  }
+  
+  .stats p {
+    font-size: 1rem;
+    color: white;
+  }
+  
+  .services {
+    padding: 50px 20px;
+    background-color: #1a1a1a;
+    color: white;
+    text-align: center;
+  }
+  
+  .services h2 {
+    font-size: 2rem;
+    margin-bottom: 40px;
+    color: white;
+  }
+  
+  .card-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    background-color: #161616;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card .icon img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 20px;
+  }
+  
+  .card h3 {
+    font-size: 1.5rem;
+    color: #00d7ff;
+    margin-bottom: 15px;
+  }
+  
+  .card p {
+    font-size: 1rem;
+    color: #ddd;
+    margin-bottom: 20px;
+  }
+  
+  .learn-more {
+    padding: 10px 20px;
+    background-color: #358F0B;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  .learn-more:hover {
+    background-color: #28a428;
+  }
+
+  .clinic-highlight {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px 20px;
+    background-color: #0A453E;
+    color: white;
+  }
+  
+  .clinic-highlight .content {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .clinic-highlight .text {
+    flex: 1;
+    max-width: 600px;
+  }
+  
+  .clinic-highlight h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #00d7ff;
+  }
+  
+  .clinic-highlight p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    line-height: 1.6;
+  }
+  
+  .clinic-highlight .learn-more {
+    padding: 10px 20px;
+    background-color: #32cd32;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  .clinic-highlight .learn-more:hover {
+    background-color: #28a428;
+  }
+  
+  .clinic-highlight .images {
+    flex: 1;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .clinic-highlight .images img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .clinic-highlight .gallery {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .clinic-highlight .gallery img {
+    flex: 1;
+  }
+  
+  .doctor {
+    display: flex;
+    gap: 2rem;
+    background-color: #0A453E;
+    padding: 2rem;
+    color: white;
+  }
+  
+  .doctor-info {
+    flex: 1;
+  }
+  
+  .doctor-info a {
+    color: #00b0ff;
+    text-decoration: none;
+  }
+  
+  .doctor-image img {
+    max-width: 100%;
+    border-radius: 10px;
+  }
+  
+  /* Artigos */
+  .articles {
+    background-color: #222222;
+    padding: 2rem;
+    color: white;
+    text-align: center;
+  }
+  
+  .article-cards {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+  }
+  
+  .article-card {
+    background-color: #222222;
+    color: white;
+    width: 30%;
+    border-radius: 60px;
+    padding: 1rem;
+    text-align: left;
+  }
+  
+  .article-card img {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+  }
+  
+  .article-card h3 {
+    color: #00b0ff;
+  }
+  
+  .article-card a {
+    color: #00b0ff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  /* Informações */
+
+  footer {
+    background-color: #0A1445; 
+    color: #ffffff;
+    padding: 30px 20px;
+    text-align: left;
+  }
+  
+  .footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .footer-column {
+    flex: 1 1 200px; 
+    margin: 10px;
+  }
+  
+  .footer-column h4 {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    color: #f1f1f1; 
+  }
+  
+  .footer-column p,
+  .footer-column ul {
+    margin: 5px 0;
+    line-height: 1.6;
+  }
+  
+  .footer-column ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-column ul li {
+    margin: 8px 0;
+  }
+  
+  .footer-column ul li a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  .footer-column ul li a:hover {
+    color: #58259b; 
+  }
+  
+  .icon {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 150px; 
+    width: 150px; 
+    margin: auto;
+   
+  }
+  
+  .icon img {
+    width: 100%; 
+    height: 100%; 
+    object-fit: contain;
+    border-radius: 50%;
+    object-fit: cover; 
+  }
